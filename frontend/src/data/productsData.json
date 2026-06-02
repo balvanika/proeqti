@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Products",
+    "image": "https://brew-blis.myshopify.com/cdn/shop/files/prod02.png?v=1737114828&width=2000",
+    "count": "13 Products"
+  },
+  {
+    "id": 2,
+    "name": "Bisky",
+    "image": "https://brew-blis.myshopify.com/cdn/shop/collections/prod06.png?v=1737441112&width=2000",
+    "count": "12 Products"
+  },
+  {
+    "id": 3,
+    "name": "Beer",
+    "image": "https://brew-blis.myshopify.com/cdn/shop/collections/prod04.png?v=1737441174&width=2000",
+    "count": "12 Products"
+  },
+  {
+    "id": 4,
+    "name": "Bisky",
+    "image": "https://brew-blis.myshopify.com/cdn/shop/collections/prod06.png?v=1737441112&width=2000",
+    "count": "12 Products"
+  }
+]

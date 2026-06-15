@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import { Link } from "react-router-dom";
 
@@ -15,11 +15,20 @@ import {
 
 import ProductList from "../components/ProductList";
 
-import products from "../data/productsData.json";
+
 
 export default function Shop() {
 
   const [searchOpen, setSearchOpen] = useState(false);
+
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+  fetch("http://localhost:3001/api/products")
+    .then((res) => res.json())
+    .then((data) => setProducts(data))
+    .catch((err) => console.error(err));
+}, []);
 
   return (
     <div className="shop-wrapper">
